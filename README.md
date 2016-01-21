@@ -1,2 +1,2 @@
 # DSPA
-*compilation of incomplete **dspa** tasks
+* compilation of incomplete **dspa** tasks
