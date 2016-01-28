@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "title": "Location",
+  "type": "object",
+  "required": ["id", "locationType", "name1", "name2", "name3"],
+  "properties":{
+    "id":{
+      "type": "number",
+      "description": "unique ID for location"
+    },
+    "locationType":{
+      "type": "string",
+      "description": "Client location or fastService location"
+    },
+    "name1": {
+      "type": "string",
+      "description": "Name of the street the location is on"
+    },
+    "name2": {
+      "type": "string",
+      "description": "Name of the intersecting street in South or West direction from location"
+    },
+    "name3": {
+      "type": "string",
+      "description": "Name of the intersecting street in North or East direction from location"
+    }
+  }
+}
